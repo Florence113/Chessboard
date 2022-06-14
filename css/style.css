@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: teal;
+}
+
+.top{
+    display: flex;
+    width: 60%;
+    margin:3em auto 0;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+main{
+    width: 70%;
+    height: 80vh;
+    border: 6px solid black;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto 0;
+    display: flex;          /* Remove this when using float for the class black and in the class white*/
+    flex-wrap: wrap;      /* Remove this when using float for the class black and in the class white*/
+    box-shadow: 0.8em 0.8em 0.4em black;
+    border-radius: 1em;
+}
+
+.black{
+    /* float: left; */      /*Enable float after clearing the display:flex and flex-wrap:wrap in main*/
+    width: 12.5%;
+    height: 12.5%;
+    background: cyan;
+}
+
+.white{
+    /* float: left; */
+    width: 12.5%;
+    height: 12.5%;
+    background: white;
+}
+
+span{
+    font-size: 3em;
+}
